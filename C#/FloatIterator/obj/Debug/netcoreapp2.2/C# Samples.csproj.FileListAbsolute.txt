@@ -20,3 +20,14 @@
 /Users/skarneth/Projects/C# Samples/WordCountSorted/obj/Debug/netcoreapp2.2/C# Samples.AssemblyInfo.cs
 /Users/skarneth/Projects/C# Samples/WordCountSorted/obj/Debug/netcoreapp2.2/C# Samples.dll
 /Users/skarneth/Projects/C# Samples/WordCountSorted/obj/Debug/netcoreapp2.2/C# Samples.pdb
+/Users/skarneth/Projects/HackerRank_Challenges/C#/FloatIterator/obj/Debug/netcoreapp2.2/C# Samples.csprojAssemblyReference.cache
+/Users/skarneth/Projects/HackerRank_Challenges/C#/FloatIterator/obj/Debug/netcoreapp2.2/C# Samples.csproj.CoreCompileInputs.cache
+/Users/skarneth/Projects/HackerRank_Challenges/C#/FloatIterator/obj/Debug/netcoreapp2.2/C# Samples.AssemblyInfoInputs.cache
+/Users/skarneth/Projects/HackerRank_Challenges/C#/FloatIterator/obj/Debug/netcoreapp2.2/C# Samples.AssemblyInfo.cs
+/Users/skarneth/Projects/HackerRank_Challenges/C#/FloatIterator/obj/Debug/netcoreapp2.2/C# Samples.dll
+/Users/skarneth/Projects/HackerRank_Challenges/C#/FloatIterator/obj/Debug/netcoreapp2.2/C# Samples.pdb
+/Users/skarneth/Projects/HackerRank_Challenges/C#/FloatIterator/bin/Debug/netcoreapp2.2/C# Samples.deps.json
+/Users/skarneth/Projects/HackerRank_Challenges/C#/FloatIterator/bin/Debug/netcoreapp2.2/C# Samples.runtimeconfig.json
+/Users/skarneth/Projects/HackerRank_Challenges/C#/FloatIterator/bin/Debug/netcoreapp2.2/C# Samples.runtimeconfig.dev.json
+/Users/skarneth/Projects/HackerRank_Challenges/C#/FloatIterator/bin/Debug/netcoreapp2.2/C# Samples.dll
+/Users/skarneth/Projects/HackerRank_Challenges/C#/FloatIterator/bin/Debug/netcoreapp2.2/C# Samples.pdb

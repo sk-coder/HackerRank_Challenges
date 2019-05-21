@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/skarneth/Projects/C# Samples/WordCountSorted/C# Samples.csproj",
+      "projectUniqueName": "/Users/skarneth/Projects/HackerRank_Challenges/C#/FloatIterator/C# Samples.csproj",
       "projectName": "C# Samples",
-      "projectPath": "/Users/skarneth/Projects/C# Samples/WordCountSorted/C# Samples.csproj",
+      "projectPath": "/Users/skarneth/Projects/HackerRank_Challenges/C#/FloatIterator/C# Samples.csproj",
       "packagesPath": "/Users/skarneth/.nuget/packages/",
-      "outputPath": "/Users/skarneth/Projects/C# Samples/WordCountSorted/obj/",
+      "outputPath": "/Users/skarneth/Projects/HackerRank_Challenges/C#/FloatIterator/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
