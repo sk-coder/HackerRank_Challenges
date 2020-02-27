@@ -22,9 +22,9 @@ def hourglassSum(arr):
     for i in range(0, 4):
         for j in range(0, 4):
             print "I: " + str(i) + " J: " + str(j)
-            print "  Row 1: " + str(sum(arr[i][j:j+2]))
-            print "  Row 2: " + str(arr[i+1][j+1])
-            print "  Row 3: " + str(sum(arr[i+2][j:j+2]))
+            print "  Row 1: " + str( arr[i][j:j+3] )
+            print "  Row 2: " + str( arr[i+1][j+1] )
+            print "  Row 3: " + str( arr[i+2][j:j+3] )
             val = sum(arr[i][j:j+2])
             val += arr[i+1][j+1]
             val += sum(arr[i+2][j:j+2])
