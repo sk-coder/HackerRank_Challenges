@@ -51,19 +51,19 @@ def minimumBribes(arr):
                     # We have resolved this swap. No additional counts. Clear the queues
                     pos_queue = 0
                     val_queue = 0
-                elif pos_queue == val:
-                    # We found a match for the position in the value. Increase the count and reset the queue.
-                    pos_queue = pos
+                else:
                     bribes = bribes + 1
-                elif val_queue == pos:
-                    # We found a match for the value in the position
-                    val_queue = val
-                    bribes = bribes + 1
+                    if pos_queue == val:
+                        # We found a match for the position in the value. Increase the count and reset the queue.
+                        pos_queue = pos
+                    elif val_queue == pos:
+                        # We found a match for the value in the position
+                        val_queue = val
 
 
     # Output the result
     if is_invalid:
-        print "Too Chaotic"
+        print "Too chaotic"
     else:
         print(bribes)
 
