@@ -12,7 +12,7 @@ def minimumBribes(arr):
     arr_len    = len(arr)
     bribes     = 0
 
-    if arr_len >= 10**5:
+    if arr_len > 10**5:
         is_invalid = 1
 
     # Iterate through the array backwards and see if we can reverse the array back to starting order
@@ -35,6 +35,8 @@ def minimumBribes(arr):
                 bribes += 2
             else:
                 is_invalid = 1
+                #print "Idx: " + str(idx)
+                #print("i-3: " + str(arr[i-3]) + "  i-2: " + str(arr[i-2]) + "  i-1: " + str(arr[i-1]) + "  i: " + str(arr[i]))
 
     if is_invalid:
         print "Too chaotic"
@@ -42,7 +44,7 @@ def minimumBribes(arr):
         print str(bribes)
 
 if __name__ == '__main__':
-    f = open("NY_Chaos_TC06.txt", "r")
+    f = open("NY_Chaos_TC08.txt", "r")
     line = f.readline()
     t = int(line)
 
@@ -54,4 +56,5 @@ if __name__ == '__main__':
         q = map(int, line.rstrip().split())
 
         print""
+
         minimumBribes(q)
