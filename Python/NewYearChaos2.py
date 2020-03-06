@@ -28,6 +28,7 @@ def minimumBribes(arr):
             idx = i + 1
             val = arr[i]
 
+            print "Idx: " + str(idx) + "  V: " + str(val)
             # Is the current value greater than the maximum position shift of 2
             if val > idx + 2:
                 is_valid = 0
@@ -39,6 +40,7 @@ def minimumBribes(arr):
                     in_order = 0
                     idx_sum  = idx
                     val_sum  = val
+                    print ("  -- Out Of Order")
 
             else:
                 # add idx and val to sums, we will use this later
@@ -53,7 +55,6 @@ def minimumBribes(arr):
                     if last_match > val:
                         bribes = bribes + 1
 
-                    last_match = val
 
                     if idx_sum == val_sum:
                         # we have found the end of this series of bribes
@@ -61,10 +62,12 @@ def minimumBribes(arr):
                         idx_sum  = 0
                         val_sum  = 0
 
+                    last_match = val
+
                 elif val == idx:
                     # This person had to bribe someone to remain in the same spot
                     bribes = bribes + 1
-
+                print "  Br: " + str(bribes) + "  Last: " + str(last_match) + "  iSum: " + str(idx_sum) + "  vSum: " + str(val_sum)
 
     # Output the result
     if is_valid:
@@ -74,12 +77,16 @@ def minimumBribes(arr):
 
 
 if __name__ == '__main__':
-    t = int(raw_input())
+    f = open("NY_Chaos_TC06.txt", "r")
+    line = f.readline()
+    t = int(line)
 
     for t_itr in xrange(t):
-        n = int(raw_input())
+        line = f.readline()
+        n = int(line)
 
-        q = map(int, raw_input().rstrip().split())
+        line = f.readline()
+        q = map(int, line.rstrip().split())
 
         print""
         minimumBribes(q)

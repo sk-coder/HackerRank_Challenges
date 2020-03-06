@@ -22,7 +22,7 @@ def minimumBribes(queue):
         # in this spot. This is what we will test against
         should_be_num = i + 1
 
-        # Get the starting position of final_queue[i]
+        # Someone can only bribe forward
         is_num = queue[i]
 
         # Reset the bribe count for 'too complex'
